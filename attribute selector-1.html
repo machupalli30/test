@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>attribute selector</title>
+    <style>
+        [align]{
+            border: 2px solid red;
+        }
+        [align="center"]{
+            background-color: black;
+            color:lightcoral;
+        }
+        [align="right"]{
+            color:ghostwhite;
+            text-shadow: 0 0 15px green;
+        }
+        [align="left"]{
+            color: ghostwhite;
+            text-shadow: 0 0 15px chocolate;
+            font-style: italic;
+        }
+        [title="table"]{
+            border: 2px solid red;
+            border-radius: 50px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">align:center</h1>
+    <h1 align="right">align:right</h1>
+    <h1 align="left">align:left</h1>
+</body>
+</html>
